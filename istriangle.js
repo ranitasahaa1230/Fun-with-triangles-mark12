@@ -2,8 +2,6 @@ const Angles=document.querySelectorAll('.angle-inp');
 const submitBtn=document.querySelector('#submit-button');
 const outputEl=document.querySelector('#output');
 
-
-
 submitBtn.addEventListener('click', isTriangle);
 
 function isTriangle(){
