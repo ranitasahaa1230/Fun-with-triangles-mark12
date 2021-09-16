@@ -2,7 +2,7 @@ const submitBtn=document.querySelector('#submit-button');
 const quizForm=document.querySelector('#form-quiz');
 const outputEl=document.querySelector('#output');
 
-const correctAnswers=["90°","right-angled","one right angle","12,16,20","Equilateral triangle","85°","None","a + b + c","no","45°"];
+const correctAnswers=["90°","right-angled","one right angle","12,16,20","Equilateral triangle","100°","None","a + b + c","no","45°"];
 
 submitBtn.addEventListener('click', calculateScore);
 
