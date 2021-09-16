@@ -15,6 +15,19 @@ h4{
     color: black;
 }
 
+nav{
+    height: 6rem;
+    font-size: 1.4rem;
+    padding-left:6rem;
+}
+
+#fun{
+    padding-right: 28rem;
+    font-weight: bolder;
+    color: aqua;
+    font: 1.7em sans-serif;
+}
+
 .question-container{
     margin: 2rem;
     font-size: larger;

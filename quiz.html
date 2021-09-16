@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz on triangles-Mark12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="quiz.css" />
 
 </head>
 <body>
+
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" id="fun">FUN WITH TRIANGLES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="istriangle.html">Is Triangle?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="quiz.html">Quiz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="hyp.html">Hypotenuse</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="area.html">Area of Triangle</a>
+      </li>
+    </ul>
+</nav>
+
     <h1>Quiz on triangles</h1>
 
-    <form>
+    <form id="form-quiz">
         <h4>For each correct answer you will get 1 point</h4>
 
         <div class="question-container">
@@ -39,33 +62,34 @@
 
         <div class="question-container">
             <p for="question-4">4) Which of the following can form a right angled triangle?</p>
-           <label><input type="radio" name="question-4" value="14" />14,15,26</label>
-           <label><input type="radio" name="question-4" value="12" />12,16,20</label>
+           <label><input type="radio" name="question-4" value="14,15,26" />14,15,26</label>
+           <label><input type="radio" name="question-4" value="12,16,20" />12,16,20</label>
         </div>
 
         <div class="question-container">
             <p for="question-5">5) Which of the following triangles are always similar?</p>
-           <label><input type="radio" name="question-5" value="equi" />Equilateral triangle</label>
-           <label><input type="radio" name="question-5" value="isos" />Isosceles triangle</label>
+           <label><input type="radio" name="question-5" value="Equilateral triangle" />Equilateral triangle</label>
+           <label><input type="radio" name="question-5" value="Isosceles triangle" />Isosceles triangle</label>
         </div>
 
         <div class="question-container">
             <p for="question-6">6) If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?            </p>
            <label><input type="radio" name="question-6" value="100°" />100°</label>
-           <label><input type="radio" name="question-6" value="100°" />85°</label>
+           <label><input type="radio" name="question-6" value="85°" />85°</label>
         </div>
 
         <div class="question-container">
             <p for="question-7">7) If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?            </p>
            <label><input type="radio" name="question-7" value="30°" />30°</label>
            <label><input type="radio" name="question-7" value="10°" />10°</label>
+           <label><input type="radio" name="question-7" value="None" />None</label>
         </div>
 
         <div class="question-container">
             <p for="question-8">8) The perimeter of scalene triangle with sides a, b, c is </p>
-           <label><input type="radio" name="question-8" value="a" />a + b + c</label>
+           <label><input type="radio" name="question-8" value="a + b + c" />a + b + c</label>
            <label><input type="radio" name="question-8" value="2a" />2a</label>
-           <label><input type="radio" name="question-8" value="none" />None of these</label>
+           <label><input type="radio" name="question-8" value=">None of these" />None of these</label>
 
         </div>
 

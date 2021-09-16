@@ -8,6 +8,20 @@ h1{
     margin: 2rem;
     font-size: 2.5rem;
 }
+
+nav{
+    height: 6rem;
+    font-size: 1.4rem;
+    padding-left:6rem;
+}
+
+#fun{
+    padding-right: 28rem;
+    font-weight: bolder;
+    color: aqua;
+    font: 1.7em sans-serif;
+}
+
 label{
     display: block;
     align-items: center;

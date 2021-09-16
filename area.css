@@ -31,6 +31,18 @@ input{
     border-radius: 8px;
     height: 12px;
 }
+nav{
+    height: 6rem;
+    font-size: 1.4rem;
+    padding-left:6rem;
+}
+
+#fun{
+    padding-right: 28rem;
+    font-weight: bolder;
+    color: aqua;
+    font: 1.7em sans-serif;
+}
 
 button{
     font-size: 1.3rem;
