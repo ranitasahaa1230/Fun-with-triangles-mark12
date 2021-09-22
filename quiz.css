@@ -1,57 +1,113 @@
-body{
-    text-align: center;
-    color:#a52a90;
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
     margin: 0;
-    background-color: rgba(251, 255, 0, 0.445);    
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
-    margin: 2rem;
-    font-size: 2.5rem;
+    padding-top: 1.2rem;
+    color:brown;
 }
 
 h4{
-    font-size: 1.5rem;
-    color: black;
+    padding-top: 1rem;
 }
-
-nav{
-    height: 6rem;
-    font-size: 1.4rem;
-    padding-left:6rem;
-}
-
-#fun{
-    padding-right: 28rem;
-    font-weight: bolder;
-    color: aqua;
-    font: 1.7em sans-serif;
-}
-
 .question-container{
-    margin: 2rem;
-    font-size: larger;
-    font-weight: 550;
-    color: green;
+    padding: 1rem;
+}
+
+
+body{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+header{
+    background-color:#F87171;
+    color: white;
+    text-align: initial;
+    padding: 0.5rem; 
+}
+
+.head{
+    font-size: 1.7rem;
+    font-family: 'Merienda', cursive;
+    padding-left: 4rem;
+    padding-top: 0.3rem;
+}
+.nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+
+}
+
+.nav .nav-link{
+    color:black;
+    padding: 1rem;
+}
+
+.nav .active{
+    font-weight: bold;
+  
+}
+
+li{
+    list-style: none;
 }
 
 button{
-    font-size: 1.3rem;
-    background-color: rgb(43, 144, 226);
-    color:white;
-    padding: 5px;
-    margin-left: 1.5rem;
-    margin: 2rem;
+    font-size: 1.5rem;
+    background-color: #F87171;
+    color: white;
+    margin:auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid white;
+    border-radius: 7px;
 }
-
 
 #output{
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1.2rem;
     font-weight: 600;
     color: blue;
+   
+}
+
+.main{
+    background-color:#93C5FD;
 }
 
 footer{
-    margin-top: 2rem;
+    text-align: center;
+    background-color:#6B7280;  
 }
+
+article{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Merienda', cursive;
+    padding: 0.8rem;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+img:hover{
+    background-color: blue;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
