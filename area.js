@@ -17,7 +17,7 @@ function calculateArea(){
 
     if(area=Math.sqrt((s*(s-a)*(s-b)*(s-c)))){
         console.log(area);
-        outputEl.innerText = `Area of a triangle using heron's formula is ${area} units.`
+        outputEl.innerText = `Area of a triangle using heron's formula is ${area.toFixed(2)} units.`
     }else{
         outputEl.innerText ="Enter valid side lengths such that each side lengths must be greater than 0"
     }

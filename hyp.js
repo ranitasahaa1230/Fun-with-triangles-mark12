@@ -12,7 +12,7 @@ function calculateHypotenuse(){
     let hyp;
 
     if(hyp=Math.sqrt(base*base+height*height)){
-        outputEl.innerText=`The length of the hypotenuse is ${hyp} units`;
+        outputEl.innerText=`The length of the hypotenuse is ${hyp.toFixed(2)} units`;
      }else{
         outputEl.innerText="The length of the hypotenuse is 0";
      }
