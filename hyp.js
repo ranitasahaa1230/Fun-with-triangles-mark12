@@ -1,11 +1,15 @@
 const b1=document.querySelector('#base');
 const h1=document.querySelector('#height');
-const submitBtn=document.querySelector('#submit-button');
+// const submitBtn=document.querySelector('#submit-button');
 const outputEl=document.querySelector('#output');
+const form = document.querySelector('#form');
 
-submitBtn.addEventListener('click', calculateHypotenuse);
 
-function calculateHypotenuse(){
+form.addEventListener('submit', calculateHypotenuse);
+
+function calculateHypotenuse(e){
+   e.preventDefault();
+
     const base=Number(b1.value);
     const height=Number(h1.value);
     // const hyp=Math.sqrt(base*base+height*height);

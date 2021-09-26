@@ -31,19 +31,20 @@
 
 <h1>Calculate Hypotenuse of a triangle</h1>
 
-    <div>
+    <form id="form">
 
         <label for="base">Enter base value (a) =
-            <input type="number" id="base" placeholder="Enter Base Value" />
+            <input type="number" id="base" placeholder="Enter Base Value" required autofocus min="1" />
         </label>
 
         <label for="height">Enter height value (b) =
-            <input type="number" id="height" placeholder="Enter Height Value" />
+            <input type="number" id="height" placeholder="Enter Height Value" required autofocus min="1" />
         </label>
 
-    </div>
+        <button id="submit">Calculate Hypotenuse</button>
 
-    <button id="submit-button">Calculate Hypotenuse</button>
+      </form>
+
     
     <div>
         <h3 class="formula">Hypotenuse formula =</h3>

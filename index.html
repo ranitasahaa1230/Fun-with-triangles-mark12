@@ -31,22 +31,23 @@
     <div class="main">
       <h1>Angles of triangles</h1>
 
-    <div>
+    <form id="form">
         <label for="angle-1">Angle1
-            <input type="number" class="angle-inp" placeholder="Enter Angle1" />
+            <input type="number" class="angle-inp" placeholder="Enter Angle1" required autofocus min="1" />
         </label>
 
         <label for="angle-2">Angle2
-            <input type="number" class="angle-inp" placeholder="Enter Angle2" />
+            <input type="number" class="angle-inp" placeholder="Enter Angle2" required autofocus min="1"  />
         </label>
 
         <label for="angle-3">Angle3
-            <input type="number" class="angle-inp" placeholder="Enter Angle3" />
+            <input type="number" class="angle-inp" placeholder="Enter Angle3" required autofocus min="1" />
         </label>
 
-    </div>
+        <button id="submit">Is Triangle?</button>
 
-    <button id="submit-button">Is Triangle?</button>
+    </form>
+
 
     <div id="output"></div>
     </div>

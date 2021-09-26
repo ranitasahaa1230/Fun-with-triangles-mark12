@@ -30,24 +30,24 @@
 
     <h1>Calculate Area of a triangle</h1>
 
-    <div id="area">
+    <form id="area">
 
-        <label for="first" class="input-label">Enter first side of a triangle
-            <input type="number" class="input-text" id="first" placeholder="Enter the first side" required/>
+        <label for="angle1">Enter first side of a triangle
+            <input type="number" id="angle1" placeholder="Enter the first side" required autofocus min="1"/>
         </label>
 
 
-        <label for="second" class="input-label">Enter second side of a triangle
-            <input type="number" class="input-text" id="second" placeholder="Enter the second side" required/>
+        <label for="angle2">Enter second side of a triangle
+            <input type="number" id="angle2" placeholder="Enter the second side" required autofocus min="1"/>
         </label>
 
-        <label for="third" class="input-label">Enter third side of a triangle
-            <input type="number" class="input-text" id="third" placeholder="Enter the third side" required />
+        <label for="angle3">Enter third side of a triangle
+            <input type="number"  id="angle3" placeholder="Enter the third side" required autofocus min="1"/>
         </label>
 
-        <button id="submit-button" type="submit">Calculate</button>
+        <button id="submit">Calculate</button>
 
-    </div>
+    </form>
 
     <h2 id="output"></h2>
 

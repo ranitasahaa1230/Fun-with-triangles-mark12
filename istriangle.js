@@ -1,10 +1,13 @@
 const Angles=document.querySelectorAll('.angle-inp');
-const submitBtn=document.querySelector('#submit-button');
+// const submitBtn=document.querySelector('#submit-button');
 const outputEl=document.querySelector('#output');
+const form = document.querySelector('#form');
 
-submitBtn.addEventListener('click', isTriangle);
+form.addEventListener('submit', isTriangle);
 
-function isTriangle(){
+function isTriangle(e){
+    e.preventDefault();
+
     const sumAngles=calculateSumOfAngles(Number(Angles[0].value),Number(Angles[1].value),Number(Angles[2].value))
     if(sumAngles===180){
         outputEl.innerText="Yaayy! The angles form a triangle";
@@ -12,7 +15,7 @@ function isTriangle(){
         outputEl.innerText="Please enter all the fields!🙄";
     }
     else{
-        outputEl.innerText="Oh oh! The angles doesn't form a triangle";
+        outputEl.innerText="OOPS, it does not form a triangle :(";
     }
 
 }
